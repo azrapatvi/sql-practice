@@ -9,10 +9,12 @@ It is purely a **learning & practice repository** to strengthen SQL fundamentals
 
 ---
 
-## 🗄️ Database Used
-- **Database Name:** `employee_details`
+## 🗄️ Databases Used
+- **Database Names:** 
+  - `employee_details`
+  - `SQL_Basics_Questions` *(added recently for practice solutions)*
 
-All tables and queries are created and executed inside this database.
+All tables and queries are created and executed inside these databases.
 
 ---
 
@@ -117,12 +119,31 @@ Used to:
 
 ---
 
+## 🗂️ Practice Solution Files Added
+- `question_set_1_solutions.sql`  
+  - Contains basic queries on the `Employees` table, including:
+    - Selecting columns
+    - Filtering by department and salary
+    - Sorting results
+    - Using `DISTINCT`, `COUNT`, `MAX`, `AVG`
+    - Pattern matching with `LIKE`
+- `question_set_2_solutions.sql`  
+  - Contains intermediate queries on the `Employees` table, including:
+    - Combined conditions using `AND`, `OR`, `NOT`
+    - Range filtering with `BETWEEN`
+    - Inclusion/exclusion using `IN` and `NOT IN`
+    - Complex logical queries combining multiple conditions
+
+---
+
 ## 📂 Repository Structure (Suggested)
 ```
 SQL-Practice/
 │
 ├── sql_basics.sql
-├── joins and_aggregations.sql
+├── question_set_1_solutions.sql
+├── question_set_2_solutions.sql
+├── joins_and_aggregations.sql
 ├── joins_and_subqueries.sql
 ├── case_statements.sql
 └── README.md
@@ -146,4 +167,3 @@ SQL-Practice/
 
 ## ✨ Final Note
 This repository reflects my **learning journey in SQL** and will continue to grow as I explore more advanced concepts.
-
