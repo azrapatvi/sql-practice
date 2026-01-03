@@ -116,6 +116,12 @@ Used to:
 - Copying table structure and data using:
   - `CREATE TABLE LIKE`
   - `INSERT INTO ... SELECT`
+ 
+  - `window_functions_cte_temp_tables.sql`  
+  - Window functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`)
+  - Subject-wise ranking using `PARTITION BY`
+  - CTE creation and usage
+  - Temporary table creation and insertion
 
 ---
 
@@ -162,6 +168,7 @@ SQL-Practice/
 ├── question_set_4_solutions.sql
 ├── joins_and_aggregations.sql
 ├── joins_and_subqueries.sql
+├── window_functions_cte_temp_tables.sql
 ├── case_statements.sql
 └── README.md
 ```
