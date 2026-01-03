@@ -133,6 +133,21 @@ Used to:
     - Range filtering with `BETWEEN`
     - Inclusion/exclusion using `IN` and `NOT IN`
     - Complex logical queries combining multiple conditions
+- `question_set_3_solutions.sql`  
+  - Contains queries on `Customers`, `Orders`, and `Products` tables, including:
+    - Finding customers who placed orders
+    - Customers who haven’t placed orders
+    - Listing orders with product names and prices
+    - Counting orders per customer
+    - Identifying products never ordered
+- `question_set_4_solutions.sql`  
+  - Contains more advanced queries on `Customers`, `Orders`, and `Products`, including:
+    - Identifying customer pairs in the same country
+    - Finding top-spending customers
+    - Customers ordering multiple product types
+    - Using `RIGHT JOIN` to find all products including un-ordered ones
+    - Filtering orders by country or product price
+    - Counting repeated orders of the same product
 
 ---
 
@@ -143,12 +158,13 @@ SQL-Practice/
 ├── sql_basics.sql
 ├── question_set_1_solutions.sql
 ├── question_set_2_solutions.sql
+├── question_set_3_solutions.sql
+├── question_set_4_solutions.sql
 ├── joins_and_aggregations.sql
 ├── joins_and_subqueries.sql
 ├── case_statements.sql
 └── README.md
 ```
-
 
 ---
 
